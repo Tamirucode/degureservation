@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 #ALLOWED_HOSTS = ['8000-tamirucode-degureservat-2neuizvfui3.ws-eu102.gitpod.io']
-ALLOWED_HOSTS=['nesidjango2023.herokuapp.com', "localhost"]
+ALLOWED_HOSTS=['nesidjango2023-c15b4637e066.herokuapp.com']
 
 # Application definition
 
