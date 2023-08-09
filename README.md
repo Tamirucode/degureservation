@@ -26,29 +26,16 @@ This website has been designed to be fully responsive on desktop, laptop, tablet
             
 	 - Manage Table
          - For the table, The admin can add, update, and delete table information.
-     - Existing site features
+ - Existing site features
+![nav element](https://github.com/Tamirucode/degureservation/assets/116649197/02701028-cafc-4e74-84a3-c7c7739acfee)
+
      - Login
           - For the login, the user will login first before he/she can use the system.
           
     - Sign up    
          - For  the sign up, the user will sign up first before he/she can use to to login 
             in the system
-	 - Homepage
-         - For the homepage, you will be able to all the basic access in the wholesystem.
-         - such as home, book table, seebooking, menu list and login
-	 - Find a table
-         - For book a table, the user will be able to view the available table list.
-    - View booking
-         - For view booking a table, the user will be able to view the booking details.
-    
-    - Menu list   - Existing site features
-     - Login
-          - For the login, the user will login first before he/she can use the system.
-          
-    - Sign up    
-         - For  the sign up, the user will sign up first before he/she can use to to login 
-            in the system
-	 - Homepage
+    - Homepage
          - For the homepage, you will be able to all the basic access in the wholesystem.
          - such as home, book table, seebooking, menu list and login
 	 - Find a table
@@ -66,6 +53,7 @@ This website has been designed to be fully responsive on desktop, laptop, tablet
   
 ##  How  the  table booking  works
 ![logic image1](https://github.com/Tamirucode/degureservation/assets/116649197/3d5beab8-c022-4c41-a0b4-62f47868dece)
+![logic image1](https://github.com/Tamirucode/degureservation/assets/116649197/72fde17f-030a-46b3-bb7d-b2d239a9be23)
 
 Generally table booking has advanced and complexiety functionality.
 
@@ -82,14 +70,21 @@ Let us elaborate in detail
   - so no table avilable when user after sex 
     so logic respond to the 7th user table is fullybooked.
 ![logic response table is finished](https://github.com/Tamirucode/degureservation/assets/116649197/834e9b61-f023-4fe0-a547-d753b29fd33b)
+
+
 The image below table_list  under 'reservt' heading '0' will be shown which means table is finished
 
 ![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
+ 
  - one of the most interesting system in this logic is that if the user change his mind and wanted to cancel the table. 
       It is immediately available to the user urgently need a table or can rebook it again.
  
 ##  How  the user make bookings
- - The reserve table finished shows zero unde reserve table heading
+ - First of all they need to register the site
+ - Second click the link Find table nav element
+ - third fill out th form date and time click th button  find table 
+ - Fourth, if table availble they fill booking form and then click make booking button afterthat they received confirmation
+       otherwise the logic respond table is not available
 
 
 ## Future Features
@@ -110,6 +105,8 @@ The image below table_list  under 'reservt' heading '0' will be shown which mean
 - I consider a project name nesidjango having an app name nesi.
 - After i have a project and an app, i create a model of which we will  creating instances 
   through our views. In nesidjango/models.py the table presented below
+![model image 1](https://github.com/Tamirucode/degureservation/assets/116649197/86c5016d-4bdb-4730-9366-610751caab41)
+![modelimage 2](https://github.com/Tamirucode/degureservation/assets/116649197/a7e40f61-3d1b-4ac2-b973-d1dfc4fcdd70)
 
 ## Testing User Stories from User Experience (UX)
 
@@ -153,8 +150,9 @@ The image below table_list  under 'reservt' heading '0' will be shown which mean
          Once user clicks on Making a booking  button, they are redirected to  a new  page. At the same time green tickmark
          including username  message appears on top the middle of the page: "your booking has confirmed now"
          As whave seen the image below 
+![when the booking is sccessful user get this message](https://github.com/Tamirucode/degureservation/assets/116649197/d35dc51c-db01-4659-95d8-97db662e60c0)
 
-         ()[]
+         
     - sixth, if user decide that they wish update or delete their booking, they must click on mybookings nav-link. The booking
       and canceling page will appear  on the same page, the form like booking form. The form has he following elements
 
@@ -183,8 +181,20 @@ The image below table_list  under 'reservt' heading '0' will be shown which mean
    - I have mannually test this project by doing the following:-
      - below generate tested values screen shot  from my local and code institute Heroku terminal
       presented:-
-       - by supplied one user:- to check whether the user try to book one more time or not
+       - by supplied one user:- to check whether the user try to book or not
+       - by checking once a table is booked and reservtable reduced by 1
+       - by checking in the admin site also if  user book a table reducedby 1 or not 
        - by supplied sex user:- to check whether the return render html correctly respond the logic
+![booking created admin site](https://github.com/Tamirucode/degureservation/assets/116649197/50f05078-89ab-4cc9-b81a-8816e5a69c45)
+![query set](https://github.com/Tamirucode/degureservation/assets/116649197/04055f2f-ac14-44f6-a874-7a88c4445355)
+![created from admin site authomaticly visible user account](https://github.com/Tamirucode/degureservation/assets/116649197/36acc432-9074-42d9-bdb5-1995657b14a0)
+![show  every booking table goes down ](https://github.com/Tamirucode/degureservation/assets/116649197/8f9ca11c-b038-4995-83dc-663919c35a04)
+
+once the user delete all their bookings we will see this image
+![user has no booking image](https://github.com/Tamirucode/degureservation/assets/116649197/b5d70f4f-3d68-47c4-8178-7f429f69c219)
+
+
+
 
 
 
