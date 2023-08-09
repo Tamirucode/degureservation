@@ -85,8 +85,8 @@ Let us elaborate in detail
       It is immediately available to the user urgently need a table or can rebook it again.
  
 ##  How  the user make bookings
-
-
+ - The reserve table finished shows zero unde reserve table heading
+![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
 
 	
 
@@ -118,7 +118,7 @@ Let us elaborate in detail
       - I originally intended to do class based view and already it has been finished but some functionality couldn't come as expected, however, 
       - I decided to use function based view instead, which saved me a huge amount of time. 
          
-![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
+
 - In this project I implemented function based views as Python objects.
 - The logic patterns to create, read, update and delete model instances in a 
    standard view method.
@@ -236,19 +236,23 @@ Let us elaborate in detail
        - I implemented for time but not the one it should be , i tried as much as i couldn't due time shortage, I'm not pursuing a further 
          solution at the moment. In future I would like to add this issue.
 ## Deployment
- - The site was deployed to GitHub pages and code institute Heroku terminal.
+ - The site was deployed to GitHub pages and Heroku terminal.
    - steps for deployment   
-1. navigate Heroku  dashboard page  then click setting tab
-2. In my case no need config vars. then go to add buildpack by clicking its tab
-3. next select the first python,second noodjs and save changes.
-4. After  that go Heroku dashboard page  then click deploymnet tab
-5. just click Github then connect and confirm connect Github
-6. Type in the blank box my repository,traditional-game and click search
-7. click connect buttton to connect Heroku app
-8. scroll down the page click deploy branch and the app being built
-9. Finally, we see deployement the app successful message and
-10. click the view button to take a look
-- The live link can be found here:- [traditional-game](https://traditional-play.herokuapp.com/)
+1. navigate Heroku  dashboard page  then click setting tab, just down
+2. In the section config vars. then go to add
+3. Database_url value and its key Postgresql database  copy paste then  clicking add tab
+4. after that again add security key values and its corresponding key, then click add tab
+5. again add cloudinary as value and its api key, then click add button
+6. at the end port value and it key 8000, then click add button
+7. initial deployment stage disable collectstatic value and 1 key  assign
+8. At final stage only disable collectstatic with its value removed
+9. At last Debug=False
+10. After  that go Heroku dashboard page  then click deploymnet tab
+11. just click Github then connect and confirm connect Github
+12. scroll down the page click deploy branch and the app being built
+15. Finally, we see deployement the app successful message and
+16. click the view button to take a look
+- The live link can be found here:- [nesidjango](https://nesidjango2023-c15b4637e066.herokuapp.com/)
 
 ## Cloning a repository
  1. navigate the desktop version Github Dashboard 
