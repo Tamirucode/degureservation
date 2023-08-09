@@ -12,7 +12,7 @@ administrative panel for restaurant owner's to manage bookings.
 This website has been designed to be fully responsive on desktop, laptop, tablet and mobile devices.
 
 
-![mock_imape_Heroku app](https://user-images.githubusercontent.com/116649197/226162114-5e931b52-106d-4d75-a2c3-803ad8970201.png)
+![mock_imape_Heroku app](shows white blank)
 
  ##   Features 
   
