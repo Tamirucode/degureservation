@@ -164,12 +164,14 @@ The image below table_list  under 'reservt' heading '0' will be shown which mean
          
          Once user clicks on Cancel  booking  button, user sees the following popup message "Are you sure  you want delete this booking".
          if the user clicks on the "cancel booking" button, they are stay the same  page but that particular booking details deleted 		permanently.
+
 ![deleting image](https://github.com/Tamirucode/degureservation/assets/116649197/5b102a6b-96d8-46fe-987b-20b148310a09)
 
 
        As previous mentioned the logic i implemented when one reservtable deleted at the same time updated in the system.
          As whave seen the image below 
-         ()[]
+ ![show  every booking table goes down ](https://github.com/Tamirucode/degureservation/assets/116649197/a4aad694-9bb1-4df5-ae9e-		7681275eed6f)
+
     - Finally, the user need sign out at the end of the session so that keep their account safe and secure.
 
 - From  Admin point of view 
@@ -185,19 +187,19 @@ The image below table_list  under 'reservt' heading '0' will be shown which mean
        - by checking once a table is booked and reservtable reduced by 1
        - by checking in the admin site also if  user book a table reducedby 1 or not 
        - by supplied sex user:- to check whether the return render html correctly respond the logic
+      
+   below image using to check booking from admin site possible or not
 ![booking created admin site](https://github.com/Tamirucode/degureservation/assets/116649197/50f05078-89ab-4cc9-b81a-8816e5a69c45)
-![query set](https://github.com/Tamirucode/degureservation/assets/116649197/04055f2f-ac14-44f6-a874-7a88c4445355)
+
+  - Here checked if one table booked by user , reservtable decrease by 1
 ![created from admin site authomaticly visible user account](https://github.com/Tamirucode/degureservation/assets/116649197/36acc432-9074-42d9-bdb5-1995657b14a0)
+
+  - i notice the logic it works
 ![show  every booking table goes down ](https://github.com/Tamirucode/degureservation/assets/116649197/8f9ca11c-b038-4995-83dc-663919c35a04)
+
 
 once the user delete all their bookings we will see this image
 ![user has no booking image](https://github.com/Tamirucode/degureservation/assets/116649197/b5d70f4f-3d68-47c4-8178-7f429f69c219)
-
-
-
-
-
-
 
 ## Validator Testing
 
@@ -205,7 +207,7 @@ once the user delete all their bookings we will see this image
     to ensure there were no syntax errors in the project.
 ![W3C CSS Validation](https://github.com/Tamirucode/degureservation/assets/116649197/a422b5ce-7ed9-416d-b250-db92a799bfa1)
 
-## Light house test
+## Lighthouse test
 
 ![lighthouse mobile analysis](https://github.com/Tamirucode/degureservation/assets/116649197/d7550cd0-4c7c-4253-968a-e78459b34b28)
 
@@ -216,15 +218,16 @@ once the user delete all their bookings we will see this image
 ## Further Testing
   - The Website was tested on Google Chrome, Firefox, Microsoft Edge, safari and Internet Explorer browsers. The site renders fine in all browsers. 
   - The website was viewed on a variety of devices such as Desktop, Laptop, Samsung Galaxy A51 and Google Developer Tools. It is responsive on all devices and all features work as expected.
-  - A large amount of testing was done to ensure that reservtable come down when user book a table similarly goes up when user cancel booking   
-    it. 
+  - A large amount of testing was done to ensure that reservtable come down when user book a table similarly goes up when user cancel booking   it. 
 ## Bugs
-  - Solved bugs
+  -  Remaining bugs
       - when I tested the table booking, i was getting it has problem with duplicating. 
-        I fix this issue by adding code to resrict the user not book more than once .
-  - Remaining bugs
-      - when the user make booking it respondes should be the current date and time but it would rather in admin model created date and time.  
-
+        I tried to fix this issue by adding code to resrict the user not book more than once,but my code seems to be not working perfectly
+        and i commented out there .
+      - when the user makes booking it respondes should be the current date and time but it would rather in the model created date and 
+        time.  
+	
+      - I tested the whole HTML element of my Heroku app url found that the validator reports similar afew errors and warnings 
 ##  Form validation
 
    - validation I could implement
@@ -232,8 +235,8 @@ once the user delete all their bookings we will see this image
       - cancelling booking form
    - validation I couldn't implement
       - Find table form
-       - I implemented date validation but when i tested ,it seems not working, when the user click on the find table button redirect them  to booking page
-       - I implemented for time but not the one it should be , i tried as much as i couldn't due time shortage, I'm not pursuing a further 
+       - I implemented date validation but when i tested ,it seems not working, when the user click on the find table button redirect 		   them  to booking page
+       - I implemented for time but not the one it should be , i tried as much as i couldn't due time shortage, I'm not pursuing a 		    further 
          solution at the moment. In future I would like to add this issue.
 ## Deployment
  - The site was deployed to GitHub pages and Heroku terminal.
