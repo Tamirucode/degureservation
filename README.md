@@ -27,6 +27,7 @@ This website has been designed to be fully responsive on desktop, laptop, tablet
 	 - Manage Table
          - For the table, The admin can add, update, and delete table information.
  - Existing site features
+
 ![nav element](https://github.com/Tamirucode/degureservation/assets/116649197/02701028-cafc-4e74-84a3-c7c7739acfee)
 
      - Login
@@ -53,7 +54,6 @@ This website has been designed to be fully responsive on desktop, laptop, tablet
   
 ##  How  the  table booking  works
 ![logic image1](https://github.com/Tamirucode/degureservation/assets/116649197/3d5beab8-c022-4c41-a0b4-62f47868dece)
-![logic image1](https://github.com/Tamirucode/degureservation/assets/116649197/72fde17f-030a-46b3-bb7d-b2d239a9be23)
 
 Generally table booking has advanced and complexiety functionality.
 
@@ -256,14 +256,6 @@ once the user delete all their bookings we will see this image
 15. Finally, we see deployement the app successful message and
 16. click the view button to take a look
 - The live link can be found here:- [nesidjango](https://nesidjango2023-c15b4637e066.herokuapp.com/)
-
-## Cloning a repository
- 1. navigate the desktop version Github Dashboard 
-    open file menu, click clone Repository
- 2. then click the location of the repository, 
- 3. From the list of repository, click traditional-game
- 4. select local directory and file path
- 5. finaly, click to clone traditional-game.
 
 ## Technology Used
    - python
