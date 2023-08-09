@@ -81,9 +81,9 @@ Let us elaborate in detail
     the booking is going on when it reaches the sex user and the final table will be taken.
   - so no table avilable when user after sex 
     so logic respond to the 7th user table is fullybooked.
-
 ![logic response table is finished](https://github.com/Tamirucode/degureservation/assets/116649197/834e9b61-f023-4fe0-a547-d753b29fd33b)
 The image below table_list  under 'reservt' heading '0' will be shown which means table is finished
+
 ![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
  - one of the most interesting system in this logic is that if the user change his mind and wanted to cancel the table. 
       It is immediately available to the user urgently need a table or can rebook it again.
