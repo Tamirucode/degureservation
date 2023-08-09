@@ -1,0 +1,59 @@
+{% extends 'nesi/base.html' %}
+{% block content %}
+ 
+<h3>BOOKING LIST</h3>
+<div class="table-responsive">
+    <table class="table">
+    <thead >
+        <td>BOOKING ID</td>
+        <td>USERNAME</td>
+        <td>TABLE NAME</td>
+        <td>BOOKED TABLE </td>
+        <td>DATE</td>
+        <td>TIME</td>
+       
+    </thead>
+
+    {% for row in book_list %}
+    <tr>
+       
+        <td>{{row.id}}</td>
+        <td>{{row.name}}</td>
+        <td>{{row.table_name}}</td>
+        <td>{{row.booked_table}}</td>
+         <td>{{row.date}}</td>
+        <td>{{row.time}}</td>
+        
+    {% empty %}
+   <tr><td> <h2>You have no upcoming booking</h2></td></tr>
+
+    {% endfor %}
+</table>
+</div>
+
+    
+<form action="{% url 'deleting' %}" method="post">
+    <h2>Choose Id to cancel booking </h2>
+    {% csrf_token %}
+    <div class="input-div">
+        <label for="example-email-input" ><p><strong>Booking Id:</strong></p></label>
+        <input name="table_id" class="form-control" type="number" id="example-email-input"  required>
+       
+    </div>
+    <div class="input-div">
+        <label for="example-email-input" ><p><strong>Booked Table:</strong></p> </label>
+        <input name='booked_table' class="form-control" type="number"  max ="1"  min= "1" required>
+        </div>
+    <div class="input-div">
+     <button type="submit" class="btn btn-danger" id="myBtn">CANCEL BOOKING</button>
+    </div>
+</form>
+
+     
+
+</div>
+
+
+</div>
+
+{% endblock %}

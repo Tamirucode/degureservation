@@ -1,0 +1,165 @@
+*{
+    border: none;
+}
+
+.main-heading{
+    color: #fff;
+    align-items: center;
+}
+
+body{
+    background-color: #2d9b87;
+}
+
+thead{
+    background-color: greenyellow;
+}
+
+
+.navbar-nav a:hover {
+    color: chocolate;
+}
+.nav-link active {
+    background-color: lawngreen;
+}
+
+/* Main Divs */
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+#table{
+    flex:0.5;
+    margin: 2rem;
+    display:flex;
+    text-align: left;
+    align-items: start;  
+    flex-direction: column;
+}
+
+
+.table-info{
+    flex: 0.4;
+    margin: 1rem 1rem;
+    
+}
+
+img {
+    max-width: 100%;
+    background-color: #fff;
+  }
+  
+
+.table-info{
+    flex: 0.4;
+    margin: 1rem 1rem;
+    
+}
+
+.input-div{
+    flex: 1 1 auto;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:300px;
+    line-height: 1.5rem;
+}
+
+button{
+    background-color: #dfdfdf;
+    color:rgb(6, 137, 245);
+    outline:none;
+  
+}
+
+button:hover{
+    color:#dfdfdf;
+    background-color: rgb(6, 137, 245);
+}
+
+/*css  login and logout button*/
+
+.btn-signup {
+    background-color: #4423bb;
+    color: #fff;
+}
+  
+.btn-signup:hover
+.btn-signup:active {
+    background-color: #fff;
+    color: #bb2390;
+}
+  
+.link {
+    color: #d9c8c8;
+    text-decoration: none;
+}
+  
+.link:hover
+.link:active {
+    color: #445261;
+    text-decoration: underline;
+}
+  
+.btn-like {
+    color: #E84610;
+    border: none;
+    background: transparent;
+}
+  
+.btn-like:hover,
+.btn-like:active {
+    color: #E84610;
+    background: transparent;
+    border: none;
+}
+
+.fa-check{
+    color: #7ed321;
+}
+.font-link,
+.font-link a {
+    color:#295c75;
+    font-weight: 400;
+    border: none;
+}
+
+/* menu css*/
+.food-menu__pdf-link {
+    position: relative;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    font-size: 1.2rem;
+    border: 2px solid #2d9b87;
+    border-radius: 2px;
+    text-transform: uppercase;
+    padding: 12px 12px 12px 46px;
+    text-decoration: none;
+    word-break: break-all;
+    color: black;
+}
+
+/*style footer element*/
+footer {
+    height: 150px;
+
+}
+
+.share-links {
+    text-align: center;
+}
+
+.share-links > li {    
+    display: inline;
+}
+
+.share-links i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5% ;
+    color:#fff
+}

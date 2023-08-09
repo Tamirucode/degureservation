@@ -1,0 +1,60 @@
+{% extends 'nesi/base.html' %}
+{% block content %}
+
+<h2>LIST OF TABLES</h2>
+<div class="table-responsive">
+    <table class="table">
+    <thead>
+    <td>ID</td>
+    <td>NAME</td>
+    <td>BOOKED TABLE</td>
+    <td>RESERVT</td>
+    <td>DATE</td>
+    <td>TIME</td>
+
+    </thead>
+
+    {% for row in table_list %}
+    <tr>
+        <td>{{row.id }}</td>
+        <td>{{row.name}}</td>
+        <td>{{row.booked_table}}</td>
+        <td>{{row.reservt}}</td>
+        <td>{{row.date}}</td>
+        <td>{{row.time}}</td>
+
+
+    </tr>
+    {% endfor %}
+</table>
+</div>
+
+    <div class="row">
+        
+            
+<form  action="{% url 'bookings' %}" method="post">
+    <h2>Choose Id to book a table </h2>
+    {% csrf_token %}
+    <div class="col-lg-4 col-md-6 form-group mt-3">
+        <label for="example-email-input" class="form-label"><p><strong>Id:</strong></p></label>
+        <div >
+            <input name='table_id' class="form-control" type="number" id="example-email-input" max ="1"  min= "1"  required>
+        </div>
+    </div>
+    <div class=" col-lg-4 col-md-6 form-group mb-3">
+        <label for="example-email-input" class="form-label"><p><strong>Booked Table:</strong></p> </label>
+        <div>
+            <input name='booked_table' class="form-control" type="number"  max ="1"  min= "1" required>
+        </div>
+    </div>
+    
+    <button type="submit" class="btn btn-success">MAKE A BOOKING</button>
+   
+    <h2>{{error}}</h2>
+
+</form>
+</div>
+</div>
+
+
+{% endblock %}

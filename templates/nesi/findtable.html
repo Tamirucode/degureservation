@@ -1,0 +1,54 @@
+{% extends 'nesi/base.html' %}
+{% block content %}
+
+<div class="content">
+    <!-- Table Image -->
+    <div class="image">
+       <img
+   src="https://res.cloudinary.com/dqh6bfpwq/image/upload/v1688938872/gallery-3_zjmtlt.jpg">
+   </div>
+     <!-- table form view --> 
+   <div id="table">         
+   <!-- Div 2: tableInformation -->
+    
+    <div class="table-info">
+            
+            <h2>Book table</h2>
+        </div> 
+        
+        
+        <form  action="{% url 'findtable' %}" method="POST">
+
+            {% csrf_token %}
+    
+            <!-- Input Div -->
+            <div class="input-div">
+                <label for="btn3"><p><strong>Date:</strong> </label>
+                <input type="button" id="btn3" class="form-control" value="Get Date (DD MON YYYY)" required >
+                        <p id="printDate">
+            </div>
+    
+            <!-- Input Div -->
+            <div class="input-div">
+                <label for="id_time"><p><strong>Time:</strong></p></label>
+                <input type="time" id="id_time" class="form-control" required name="time" >
+            </div>
+    
+            <!-- Input Div -->
+            <div class="input-div">
+                <button type="submit" class="form-control">Find a Table</button>
+            </div>
+            <h2>{{error}}</h2>
+            
+        </form>
+           
+       
+        </div> <!-- END table Div -->
+
+    </div><!-- END content Div -->    
+   
+
+{% endblock %}
+   
+   
+    
