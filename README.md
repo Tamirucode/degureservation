@@ -80,32 +80,17 @@ Let us elaborate in detail
  - if 'sex' user decides to book a table  and django created  unique booking id for that particular user,  
     the booking is going on when it reaches the sex user and the final table will be taken.
   - so no table avilable when user after sex 
-    so logic respond to the 7th user table is fullybooked. The image below table_list  under 'reservt' heading '0' will be shown which means table is finished
+    so logic respond to the 7th user table is fullybooked.
+
+![logic response table is finished](https://github.com/Tamirucode/degureservation/assets/116649197/834e9b61-f023-4fe0-a547-d753b29fd33b)
+The image below table_list  under 'reservt' heading '0' will be shown which means table is finished
+![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
  - one of the most interesting system in this logic is that if the user change his mind and wanted to cancel the table. 
       It is immediately available to the user urgently need a table or can rebook it again.
  
 ##  How  the user make bookings
  - The reserve table finished shows zero unde reserve table heading
-![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
 
-	
-
-         
-[Agile User Stories](https://github.com/users/Tamirucode/projects/4)
-      
-  
-
-![]()
-![]()
-         
-  
-
-![]()
-          
- 
-
-![]()
-![](p)	
 
 ## Future Features
 			
@@ -180,8 +165,11 @@ Let us elaborate in detail
            - Cancel Booking Button
          
          Once user clicks on Cancel  booking  button, user sees the following popup message "Are you sure  you want delete this booking".
-         if the user clicks on the "cancel booking" button, they are stay the same  page but that particular booking details deleted permanently.
-         As previous mentioned the logic i implemented when one reservtable deleted at the same time updated in the system.
+         if the user clicks on the "cancel booking" button, they are stay the same  page but that particular booking details deleted 		permanently.
+![deleting image](https://github.com/Tamirucode/degureservation/assets/116649197/5b102a6b-96d8-46fe-987b-20b148310a09)
+
+
+       As previous mentioned the logic i implemented when one reservtable deleted at the same time updated in the system.
          As whave seen the image below 
          ()[]
     - Finally, the user need sign out at the end of the session so that keep their account safe and secure.
@@ -189,7 +177,7 @@ Let us elaborate in detail
 - From  Admin point of view 
      - Firstly,  register  admin site and then login into the admin page
      - Secondly, able to create, view, edit and delete bookings and reservetables.
-
+![reserved table admin site](https://github.com/Tamirucode/degureservation/assets/116649197/236515d1-ac73-4c47-9f2c-e2af931a26e7)
 
 ## Testing
    - I have mannually test this project by doing the following:-
@@ -205,9 +193,11 @@ Let us elaborate in detail
 
   - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page for HTML and CSS of the project 
     to ensure there were no syntax errors in the project.
+![W3C CSS Validation](https://github.com/Tamirucode/degureservation/assets/116649197/a422b5ce-7ed9-416d-b250-db92a799bfa1)
 
 ## Light house test
-    ![lighthouse mobile analysis](https://github.com/Tamirucode/degureservation/assets/116649197/d7550cd0-4c7c-4253-968a-e78459b34b28)
+
+![lighthouse mobile analysis](https://github.com/Tamirucode/degureservation/assets/116649197/d7550cd0-4c7c-4253-968a-e78459b34b28)
 
   - PEP8			
 	  - No errors were returned from PEP8online.com
