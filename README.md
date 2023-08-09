@@ -14,9 +14,58 @@ This website has been designed to be fully responsive on desktop, laptop, tablet
 
 ![mock_imape_Heroku app](https://user-images.githubusercontent.com/116649197/226162114-5e931b52-106d-4d75-a2c3-803ad8970201.png)
 
-
+ ##   Features 
+  
+  - Admin panel features
+     - User
+          - For the user, The admin can add, update, and delete user information
+             and also the admin can change the password  of the user
+          
+     - Manage Booking    
+          - For  the booking, The admin can add, update, and delete booking information.
+            
+	 - Manage Table
+         - For the table, The admin can add, update, and delete table information.
+     - Existing site features
+     - Login
+          - For the login, the user will login first before he/she can use the system.
+          
+    - Sign up    
+         - For  the sign up, the user will sign up first before he/she can use to to login 
+            in the system
+	 - Homepage
+         - For the homepage, you will be able to all the basic access in the wholesystem.
+         - such as home, book table, seebooking, menu list and login
+	 - Find a table
+         - For book a table, the user will be able to view the available table list.
+    - View booking
+         - For view booking a table, the user will be able to view the booking details.
+    
+    - Menu list   - Existing site features
+     - Login
+          - For the login, the user will login first before he/she can use the system.
+          
+    - Sign up    
+         - For  the sign up, the user will sign up first before he/she can use to to login 
+            in the system
+	 - Homepage
+         - For the homepage, you will be able to all the basic access in the wholesystem.
+         - such as home, book table, seebooking, menu list and login
+	 - Find a table
+         - For book a table, the user will be able to view the available table list.
+    - View booking
+         - For view booking a table, the user will be able to view the booking details.
+    
+    - Menu list       
+	 - For menu list, the user will be view the available menu.
+    - About
+         - For about, general information about the booking system.
+    - Contact us
+         - For contact, the user can leave feedback and ask questions 
+         
+  
 ##  How  the  table booking  works
-[Logic](h) 
+![logic image1](https://github.com/Tamirucode/degureservation/assets/116649197/3d5beab8-c022-4c41-a0b4-62f47868dece)
 
 Generally table booking has advanced and complexiety functionality.
 
@@ -38,44 +87,10 @@ Let us elaborate in detail
 ##  How  the user make bookings
 
 
- ##   Features 
-  
-  - Admin panel features
-     - User
-          - For the user, The admin can add, update, and delete user information
-             and also the admin can change the password  of the user
-          
-     - Manage Booking    
-          - For  the booking, The admin can add, update, and delete booking information.
-            
-	 - Manage Table
-         - For the table, The admin can add, update, and delete table information.
-         
-	 
+
 	
-  - Existing site features
-     - Login
-          - For the login, the user will login first before he/she can use the system.
-          
-    - Sign up    
-         - For  the sign up, the user will sign up first before he/she can use to to login 
-            in the system
-	 - Homepage
-         - For the homepage, you will be able to all the basic access in the wholesystem.
-         - such as home, book table, seebooking, menu list and login
-	 - Find a table
-         - For book a table, the user will be able to view the available table list.
-    - View booking
-         - For view booking a table, the user will be able to view the booking details.
-    
-    - Menu list 
-         - For menu list, the user will be view the available menu.
-    - About
-         - For about, general information about the booking system.
-    - Contact us
-         - For contact, the user can leave feedback and ask questions 
+
          
-  
 [Agile User Stories](https://github.com/users/Tamirucode/projects/4)
       
   
@@ -103,13 +118,13 @@ Let us elaborate in detail
       - I originally intended to do class based view and already it has been finished but some functionality couldn't come as expected, however, 
       - I decided to use function based view instead, which saved me a huge amount of time. 
          
-
+![table is finshed reserve table shows zero ](https://github.com/Tamirucode/degureservation/assets/116649197/da7b3be8-a343-4789-a26e-57c7a2315404)
 - In this project I implemented function based views as Python objects.
 - The logic patterns to create, read, update and delete model instances in a 
    standard view method.
-- I consider a project name mydjango_table having an app name tam.
+- I consider a project name nesidjango having an app name nesi.
 - After i have a project and an app, i create a model of which we will  creating instances 
-  through our views. In mydjango_table/models.py the table presented below
+  through our views. In nesidjango/models.py the table presented below
 
 ## Testing User Stories from User Experience (UX)
 
@@ -184,16 +199,16 @@ Let us elaborate in detail
        - by supplied sex user:- to check whether the return render html correctly respond the logic
 
 
-![continued_validation_Heroku terminal](https://user-images.githubusercontent.com/116649197/226162836-bf010ad7-eb82-4b64-a242-51ac81b326b4.png)
-![continued_validation_Heroku_terminal](https://user-images.githubusercontent.com/116649197/226162849-c5bf2916-fc89-45b1-b688-4b1460df4e13.png)
-![input validation_terminal](https://user-images.githubusercontent.com/116649197/226162724-84b3c8c2-ff99-41b5-86b7-d3975e3fa453.png)
-![input validation_terminal](https://user-images.githubusercontent.com/116649197/226162456-a1eaf1ee-265a-4d61-9129-e90a537f6116.png)
 
 
 ## Validator Testing
 
   - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page for HTML and CSS of the project 
     to ensure there were no syntax errors in the project.
+
+## Light house test
+    ![lighthouse mobile analysis](https://github.com/Tamirucode/degureservation/assets/116649197/d7550cd0-4c7c-4253-968a-e78459b34b28)
+
   - PEP8			
 	  - No errors were returned from PEP8online.com
 
